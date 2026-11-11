@@ -1,5 +1,5 @@
 
-function ProjectCard({ project }) {
+function ProjectCard({ project, githubLabel, demoLabel }) {
     return (
         <article className="flex h-full flex-col">
 
@@ -48,7 +48,7 @@ function ProjectCard({ project }) {
                         rel="noopener noreferrer"
                         className="underline underline-offset-4 hover:text-[#312E81]"
                     >
-                        GitHub
+                        {githubLabel}
                     </a>
                 )}
 
@@ -59,7 +59,7 @@ function ProjectCard({ project }) {
                         rel="noopener noreferrer"
                         className="underline underline-offset-4 hover:text-[#312E81]"
                     >
-                        View Site
+                        {demoLabel}
                     </a>
                 )}
             </div>

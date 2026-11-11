@@ -1,35 +1,28 @@
 
-const skills = [
-    {
-        name: "C# & .NET",
-        description:
-            "Building RESTful APIs and backend applications with C#, ASP.NET Core, and object-oriented programming.",
-    },
-    {
-        name: "React.js",
-        description:
-            "Developing responsive and interactive web interfaces using React, JavaScript, and Tailwind CSS.",
-    },
-    {
-        name: "SQL & Databases",
-        description:
-            "Designing relational databases and working with SQL Server, PostgreSQL, and Entity Framework Core.",
-    },
-];
+import { useLanguage } from "../context/LanguageContext";
 
 function Skills() {
+    const { data, language } = useLanguage();
+
+    const skills = data.skills;
+
+    const skillItems = Array.isArray(skills?.items)
+        ? skills.items
+        : [];
+
+
     return (
         <section
             id="skills"
             className="mx-auto max-w-6xl px-6 py-12"
         >
             <h2 className="mb-7 text-3xl font-bold text-[#252B42]">
-                Skills
+                {skills?.title}
             </h2>
 
             <div className="grid gap-8 md:grid-cols-3">
-                {skills.map((skill) => (
-                    <div key={skill.name}>
+                {skills.items.map((skill, index) => (
+                    <div key={index}>
                         <h3 className="mb-3 text-xl font-semibold text-[#4731D3]">
                             {skill.name}
                         </h3>
@@ -45,3 +38,5 @@ function Skills() {
 }
 
 export default Skills;
+
+

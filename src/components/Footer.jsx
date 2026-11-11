@@ -1,7 +1,11 @@
 
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { useLanguage } from "../context/LanguageContext";
 
 function Footer() {
+    const { data } = useLanguage();
+    const { footer, contact } = data;
+
     return (
         <footer
             id="contact"
@@ -12,44 +16,51 @@ function Footer() {
 
                     <div>
                         <h2 className="max-w-sm text-3xl font-bold leading-tight text-[#252B42]">
-                            Let's work together on your next product.
+                            {footer.title}
                         </h2>
 
-                        <a
-                            href="mailto:hello@example.com"
-                            className="mt-5 inline-block text-sm font-medium text-[#4731D3] underline underline-offset-4"
-                        >
-                            hello@example.com
-                        </a>
+                        {contact.email && (
+                            <a href={`mailto:${contact.email}`}
+                                className="mt-5 inline-block text-sm font-medium text-[#4731D3] underline underline-offset-4">
+                                {contact.email}
+                            </a>
+                        )}
                     </div>
 
                     <div className="flex flex-col gap-4">
-                        <a
-                            href="https://github.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center gap-2 text-sm text-[#4731D3] hover:underline"
-                        >
-                            <FaGithub size={18} />
-                            GitHub
-                        </a>
+                        {contact.github && (
+                            <a
+                                href={contact.github}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center gap-2 text-sm text-[#4731D3] hover:underline"
+                            >
+                                <FaGithub size={18} />
+                                {footer.githubLabel}
+                            </a>
+                        )}
 
-                        <a
-                            href="https://linkedin.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center gap-2 text-sm text-[#4731D3] hover:underline"
-                        >
-                            <FaLinkedinIn size={18} />
-                            LinkedIn
-                        </a>
+                        {contact.linkedin && (
+                            <a
+                                href={contact.linkedin}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center gap-2 text-sm text-[#4731D3] hover:underline"
+                            >
+                                <FaLinkedinIn size={18} />
+                                {footer.linkedinLabel}
+                            </a>
+                        )}
 
-                        <a
-                            href="mailto:hello@example.com"
-                            className="text-sm text-[#4731D3] hover:underline"
-                        >
-                            Email
-                        </a>
+
+                        {contact.email && (
+                            <a
+                                href={`mailto:${contact.email}`}
+                                className="text-sm text-[#4731D3] hover:underline"
+                            >
+                                {footer.emailLabel}
+                            </a>
+                        )}
                     </div>
                 </div>
             </div>

@@ -1,1 +1,119 @@
-{}
+
+{
+  "header": {
+    "darkMode": "DARK MODE",
+    "lightMode": "LIGHT MODE",
+    "changeLanguage": "TÜRKÇE'YE GEÇ",
+    "skills": "Skills",
+    "projects": "Projects",
+    "hireMe": "Hire me"
+  },
+  "hero": {
+    "greeting": "Hi, I'm Kerem",
+    "title": "Backend Developer. Creative Problem Solver.",
+    "description": "I'm a software developer with a background in Software Engineering and an MSc in Information Technology. I enjoy building reliable applications, RESTful APIs, and scalable software solutions.",
+    "hireMe": "Hire me"
+  },
+  "skills": {
+    "title": "Skills",
+    "items": [
+      {
+        "name": "C# & .NET",
+        "description": "Building RESTful APIs and backend applications with C#, ASP.NET Core, and object-oriented programming."
+      },
+      {
+        "name": "React.js",
+        "description": "Developing responsive and interactive web interfaces using React, JavaScript, and Tailwind CSS."
+      },
+      {
+        "name": "SQL & Databases",
+        "description": "Designing relational databases and working with SQL Server, PostgreSQL, and Entity Framework Core."
+      }
+    ]
+  },
+  "profile": {
+    "title": "Profile",
+    "informationTitle": "Profile",
+    "aboutTitle": "About Me",
+    "information": [
+      {
+        "label": "Location",
+        "value": "Istanbul, Türkiye"
+      },
+      {
+        "label": "Education",
+        "value": "Software Engineering & MSc Information Technology"
+      },
+      {
+        "label": "University",
+        "value": "Bahçeşehir University & UWE Bristol"
+      },
+      {
+        "label": "Focus",
+        "value": "Backend Development"
+      }
+    ],
+    "about": [
+      "I'm a software developer with a background in Software Engineering and a Master's degree in Information Technology from UWE Bristol.",
+      "I have professional experience in developing reporting solutions and business applications. My primary interests include backend development, RESTful APIs, and database-driven systems.",
+      "I also enjoy exploring frontend technologies and building full-stack applications."
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "githubLabel": "GitHub",
+    "demoLabel": "View Site",
+    "items": [
+      {
+        "id": 1,
+        "title": "E-Commerce Web Application",
+        "description": "A responsive e-commerce application built with React, Redux, and Tailwind CSS. Includes product listings, category filtering, authentication, and shopping features.",
+        "image": "",
+        "technologies": [
+          "React",
+          "Redux",
+          "Tailwind CSS",
+          "Axios",
+          "Spring Boot"
+        ],
+        "github": "",
+        "demo": ""
+      },
+      {
+        "id": 2,
+        "title": "Expense Portal",
+        "description": "An application providing monthly expenses of customers and communicating between managers and admins using ASP.NET. It includes customer and manager management, addition and filtering of expenses and mailing system.",
+        "image": "",
+        "technologies": [
+          "ASP.NET"
+        ],
+        "github": "",
+        "demo": ""
+      },
+      {
+        "id": 3,
+        "title": "Personal Portfolio",
+        "description": "A personal portfolio website developed with React and Tailwind CSS, featuring responsive layouts, multilingual content, and customizable themes.",
+        "image": "/images/projects/portfolio.png",
+        "technologies": [
+          "React",
+          "Tailwind CSS",
+          "Context API"
+        ],
+        "github": "",
+        "demo": ""
+      }
+    ]
+  },
+  "footer": {
+    "title": "Let's work together on your next product.",
+    "emailLabel": "Email",
+    "githubLabel": "GitHub",
+    "linkedinLabel": "LinkedIn"
+  },
+  "contact": {
+        "email": "ornek@example.com",
+        "github": "https://github.com/kullaniciadi",
+        "linkedin": "https://www.linkedin.com/in/kullaniciadi/"
+    }
+}

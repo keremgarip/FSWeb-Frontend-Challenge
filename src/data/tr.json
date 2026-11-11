@@ -1,1 +1,118 @@
-{}
+{
+    "header": {
+        "darkMode": "KOYU TEMA",
+        "lightMode": "AÇIK TEMA",
+        "changeLanguage": "SWITCH TO ENGLISH",
+        "skills": "Yetenekler",
+        "projects": "Projeler",
+        "hireMe": "İletişime geç"
+    },
+    "hero": {
+        "greeting": "Merhaba, Ben Kerem",
+        "title": "Backend Geliştirici. Yaratıcı Problem Çözücü.",
+        "description": "Yazılım Mühendisliği geçmişine ve Bilgi Teknolojileri bölümünde yüksek lisans derecesine sahip bir yazılım geliştiricisiyim. Güvenilir uygulamalar, RESTful API'ler ve ölçeklenebilir yazılım çözümlerini geliştirmeyi severim.",
+        "hireMe": "İletişime geç"
+    },
+    "skills": {
+        "title": "Yetenekler",
+        "items": [
+            {
+                "name": "C# & .NET",
+                "description": "C#, ASP.NET Core, ve nesneye dayalı programlama ile RESTful API'ler ve backend uygulamaları geliştiriyorum."
+            },
+            {
+                "name": "React.js",
+                "description": "React, JavaScript, ve Tailwind CSS kullanarak responsive ve etkileşimli web arayüzleri geliştiriyorum."
+            },
+            {
+                "name": "SQL & Veritabanları",
+                "description": "SQL Server, PostgreSQL, ve Entity Framework Core kullanarak ilişkili veritabanları tasarlıyor ve yönetiyorum."
+            }
+        ]
+    },
+    "profile": {
+        "title": "Profil",
+        "informationTitle": "Kişisel Bilgiler",
+        "aboutTitle": "Hakkımda",
+        "information": [
+            {
+                "label": "Konum",
+                "value": "İstanbul, Türkiye"
+            },
+            {
+                "label": "Eğitim",
+                "value": "Yazılım Mühendisliği & MSc Bilgi Teknolojileri"
+            },
+            {
+                "label": "Üniversite",
+                "value": "Bahçeşehir Üniversitesi & UWE Bristol"
+            },
+            {
+                "label": "Uzmanlık Alanı",
+                "value": "Backend Geliştirme"
+            }
+        ],
+        "about": [
+            "Yazılım Mühendisliği geçmişine ve Bilgi Teknolojileri bölümünde yüksek lisans derecesine sahip bir yazılım geliştiricisiyim.",
+            "Raporlama çözümleri ve iş uygulamaları geliştirme konusunda profesyonel deneyimim bulunuyor. Başlıca ilgil alanlarım backend geliştirme, RESTful API'ler ve veritabanı tabanlı sistemlerdir.",
+            "Aynı zamanda frontend teknolojilerini keşfetmeyi ve full-stack uygulamalar geliştirmeyi seviyorum."
+        ]
+    },
+    "projects": {
+        "title": "Projeler",
+        "githubLabel": "GitHub",
+        "demoLabel": "Siteyi Görüntüle",
+        "items": [
+            {
+                "id": 1,
+                "title": "E-Ticaret Web Uygulaması",
+                "description": "React, Redux ve Tailwind CSS ile oluşturulan bir responsive e-ticaret uygulaması. Ürün listeleme, kategori filtreleme, kimlik doğrulama ve alışveriş özelliklerini içerir.",
+                "image": "",
+                "technologies": [
+                    "React",
+                    "Redux",
+                    "Tailwind CSS",
+                    "Axios",
+                    "Spring Boot"
+                ],
+                "github": "",
+                "demo": ""
+            },
+            {
+                "id": 2,
+                "title": "Masraf Modülü",
+                "description": "ASP.NET kullanılarak yapılan, müşterilerin ay boyunca girdiği masrafların yöneticiler ve admin ile iletişime geçirildiği bir aplikasyon. Personel ve yönetici yönetimi, masrafların eklenip filtrelenmesi, gönderimde mail işlemlerini içerir.",
+                "image": "",
+                "technologies": [
+                    "ASP.NET"
+                ],
+                "github": "",
+                "demo": ""
+            },
+            {
+                "id": 3,
+                "title": "Kişisel Portföy",
+                "description": "React ve Tailwind CSS ile geliştirilmiş; responsive tasarım, çoklu dil desteği ve değiştirilebilir temalar içeren kişisel portföy sitesi.",
+                "image": "/images/projects/portfolio.png",
+                "technologies": [
+                    "React",
+                    "Tailwind CSS",
+                    "Context API"
+                ],
+                "github": "",
+                "demo": ""
+            }
+        ]
+    },
+    "footer": {
+        "title": "Bir sonraki projenizde birlikte çalışalım.",
+        "emailLabel": "E-posta",
+        "githubLabel": "GitHub",
+        "linkedinLabel": "LinkedIn"
+    },
+    "contact": {
+        "email": "ornek@example.com",
+        "github": "https://github.com/kullaniciadi",
+        "linkedin": "https://www.linkedin.com/in/kullaniciadi/"
+    }
+}
