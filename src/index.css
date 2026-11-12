@@ -28,3 +28,46 @@ button, a {
 button {
   font: inherit;
 }
+
+/* Dark Mode */
+
+html.dark {
+  color: #f9fafb;
+  background-color: #171717;
+}
+
+body,
+header,
+footer,
+section,
+article {
+  transition:
+    background-color 200ms ease,
+    color 200ms ease,
+    border-color 200ms ease;
+}
+
+/* Reduced motion preferences */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  body,
+  header,
+  footer,
+  section,
+  article {
+    transition: none;
+  }
+}
+
+:where(a, button):focus-visible {
+  outline: 2px solid #4731d3;
+  outline-offset: 4px;
+}
+
+html.dark :where(a, button):focus-visible {
+  outline-color: #a78bfa;
+}

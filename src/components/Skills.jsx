@@ -2,41 +2,37 @@
 import { useLanguage } from "../context/LanguageContext";
 
 function Skills() {
-    const { data, language } = useLanguage();
+  const { data } = useLanguage();
+  const { skills } = data;
 
-    const skills = data.skills;
+  return (
+    <section
+      id="skills"
+      className="mx-auto max-w-6xl px-4 py-10 sm:px-6 md:py-12"
+    >
+      <h2 className="mb-7 text-3xl font-bold text-[#252B42] dark:text-[#F9FAFB]">
+        {skills.title}
+      </h2>
 
-    const skillItems = Array.isArray(skills?.items)
-        ? skills.items
-        : [];
+      <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        {skills.items.map((skill) => (
+          <div key={skill.name} className="min-w-0">
+            <h3 className="mb-3 text-xl font-semibold text-[#4731D3] dark:text-[#A78BFA]">
+              {skill.name}
+            </h3>
 
-
-    return (
-        <section
-            id="skills"
-            className="mx-auto max-w-6xl px-6 py-12"
-        >
-            <h2 className="mb-7 text-3xl font-bold text-[#252B42]">
-                {skills?.title}
-            </h2>
-
-            <div className="grid gap-8 md:grid-cols-3">
-                {skills.items.map((skill, index) => (
-                    <div key={index}>
-                        <h3 className="mb-3 text-xl font-semibold text-[#4731D3]">
-                            {skill.name}
-                        </h3>
-
-                        <p className="text-sm leading-6 text-[#6B7280]">
-                            {skill.description}
-                        </p>
-                    </div>
-                ))}
-            </div>
-        </section>
-    );
+            <p className="text-sm leading-6 text-[#6B7280] dark:text-[#D1D5DB]">
+              {skill.description}
+            </p>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
 }
 
 export default Skills;
+
+
 
 
