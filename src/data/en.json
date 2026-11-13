@@ -59,6 +59,12 @@
       "I also enjoy exploring frontend technologies and building full-stack applications."
     ]
   },
+  "englishProficiency": {
+    "title": "English Communication Skills",
+    "description": "Watch a video demonstrating my English speaking and presentation skills.",
+    "watchVideo": "Watch on YouTube",
+    "videoTitle": "English communication skills demonstration"
+  },
   "projects": {
     "title": "Projects",
     "githubLabel": "GitHub",
@@ -68,7 +74,7 @@
         "id": 1,
         "title": "E-Commerce Web Application",
         "description": "A responsive e-commerce application built with React, Redux, and Tailwind CSS. Includes product listings, category filtering, authentication, and shopping features.",
-        "image": "",
+        "image": "/images/projects/ecommerce.png",
         "technologies": [
           "React",
           "Redux",
@@ -76,19 +82,19 @@
           "Axios",
           "Spring Boot"
         ],
-        "github": "",
-        "demo": ""
+        "github": "https://github.com/keremgarip/workintech-ecommerce",
+        "demo": "https://workintech-ecommerce-self.vercel.app/"
       },
       {
         "id": 2,
         "title": "Expense Portal",
         "description": "An application providing monthly expenses of customers and communicating between managers and admins using ASP.NET. It includes customer and manager management, addition and filtering of expenses and mailing system.",
-        "image": "",
+        "image": "/images/projects/expense.jpeg",
         "technologies": [
           "ASP.NET"
         ],
-        "github": "",
-        "demo": ""
+        "github": "https://github.com/keremgarip/Masraf",
+        "demo": "https://kf-ik.com/"
       },
       {
         "id": 3,
@@ -113,7 +119,7 @@
   },
   "contact": {
         "email": "ornek@example.com",
-        "github": "https://github.com/kullaniciadi",
-        "linkedin": "https://www.linkedin.com/in/kullaniciadi/"
+        "github": "https://github.com/keremgarip",
+        "linkedin": "https://www.linkedin.com/in/kerem-garip-098b23254/"
     }
 }

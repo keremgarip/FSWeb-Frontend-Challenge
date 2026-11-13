@@ -1,38 +1,41 @@
-import Footer from "./components/Footer";
+
+import { useState } from "react";
+
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Skills from "./components/Skills";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-
-import { useTheme } from "./context/ThemeContext";
-
-import enData from "./data/en.json";
-import trData from "./data/tr.json";
-
-console.log("English Data:", enData);
-console.log("Turkish Data:", trData);
+import Footer from "./components/Footer";
+import ApiDemo from "./components/ApiDemo";
+import EnglishProficiency from "./components/EnglishProficiency";
 
 function App() {
-  const {theme} = useTheme();
-  console.log("Current theme:", theme);
+  const params = new URLSearchParams(window.location.search);
 
+  const showApiDemo = params.get("api-demo") === "1";
+
+  if (showApiDemo) {
+    return <ApiDemo/>;
+  }
 
   return (
     <>
-    <Header />
+      <Header />
 
-    <main>
-      <Hero />
-      <Skills />
-      <Profile />
-      <Projects />
-    </main>
+      <main>
+        <Hero />
+        <Skills />
+        <Profile />
+        <EnglishProficiency />
+        <Projects />
+      </main>
 
-    <Footer />
+      <Footer />
     </>
-  )
+  );
 }
 
 export default App;
+
 

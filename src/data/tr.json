@@ -58,6 +58,12 @@
             "Aynı zamanda frontend teknolojilerini keşfetmeyi ve full-stack uygulamalar geliştirmeyi seviyorum."
         ]
     },
+    "englishProficiency": {
+        "title": "İngilizce İletişim Becerilerim",
+        "description": "İngilizce konuşma ve sunum becerilerimi gösteren videomu izleyebilirsiniz.",
+        "watchVideo": "Youtube'da İzle",
+        "videoTitle": "İngilizce iletişim becerileri videosu"
+    },
     "projects": {
         "title": "Projeler",
         "githubLabel": "GitHub",
@@ -67,7 +73,7 @@
                 "id": 1,
                 "title": "E-Ticaret Web Uygulaması",
                 "description": "React, Redux ve Tailwind CSS ile oluşturulan bir responsive e-ticaret uygulaması. Ürün listeleme, kategori filtreleme, kimlik doğrulama ve alışveriş özelliklerini içerir.",
-                "image": "",
+                "image": "/images/projects/ecommerce.png",
                 "technologies": [
                     "React",
                     "Redux",
@@ -75,19 +81,19 @@
                     "Axios",
                     "Spring Boot"
                 ],
-                "github": "",
-                "demo": ""
+                "github": "https://github.com/keremgarip/workintech-ecommerce",
+                "demo": "https://workintech-ecommerce-self.vercel.app/"
             },
             {
                 "id": 2,
                 "title": "Masraf Modülü",
                 "description": "ASP.NET kullanılarak yapılan, müşterilerin ay boyunca girdiği masrafların yöneticiler ve admin ile iletişime geçirildiği bir aplikasyon. Personel ve yönetici yönetimi, masrafların eklenip filtrelenmesi, gönderimde mail işlemlerini içerir.",
-                "image": "",
+                "image": "/images/projects/expense.jpeg",
                 "technologies": [
                     "ASP.NET"
                 ],
-                "github": "",
-                "demo": ""
+                "github": "https://github.com/keremgarip/Masraf",
+                "demo": "https://kf-ik.com/"
             },
             {
                 "id": 3,
@@ -112,7 +118,7 @@
     },
     "contact": {
         "email": "ornek@example.com",
-        "github": "https://github.com/kullaniciadi",
-        "linkedin": "https://www.linkedin.com/in/kullaniciadi/"
+        "github": "https://github.com/keremgarip",
+        "linkedin": "https://www.linkedin.com/in/kerem-garip-098b23254/"
     }
 }
