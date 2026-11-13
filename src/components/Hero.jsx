@@ -75,7 +75,7 @@ function Hero() {
                             </span>
                         ) : (
                             <img
-                                src="/images/profile/profile.jpg"
+                                src="/images/profile/profile.jpeg"
                                 alt="Personal profile portrait"
                                 className="h-full w-full object-cover"
                                 onError={() => setImageError(true)}
