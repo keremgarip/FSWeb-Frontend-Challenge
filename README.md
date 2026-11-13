@@ -172,9 +172,9 @@ Bu uygulama yetkilendirme içerebildiğinden herkese açık bir şekilde göster
 
 Bu proje Vercel'de canlıya almak için tasarlandı.
 
-**Canlı Portfolyo:** Canlıya alım sonrası eklenecek.
+**Canlı Portfolyo:** (https://fs-web-frontend-challenge-three.vercel.app)
 
-**Canlı API Demo:** Canlıya alım sonrası eklenecek.
+**Canlı API Demo:** (https://fs-web-frontend-challenge-three.vercel.app/?api-demo=1)
 
 ## Gelecekte Düşünülenler
 
