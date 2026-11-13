@@ -99,16 +99,16 @@ npm run dev
 
 Terminalde görünen lokal URL'yi açın.
 
-## Available Scripts
+## Mevcut Komutlar
 
-| Command | Description |
+| Komut | Açıklama |
 |---|---|
 | `npm run dev` | Development sunucusunu başlatma |
 | `npm run build` | Derleme oluşturma |
 | `npm run preview` | Derlemeyi önizleme |
 | `npm run lint` | ESLint kontrollerini çalıştırma |
 
-## Language Management
+## Dil Yönetimi
 
 Bu web sitesi İngilizce ve Türkçe'yi React Context API kullanarak, üçüncü parti uluslararasılaşma kütüphaneleri olmadan destekler.
 
@@ -119,7 +119,7 @@ Bu web sitesi İngilizce ve Türkçe'yi React Context API kullanarak, üçüncü
 
 `LanguageContext` kullanıcının dil tercihine göre uygun içeriği seçer.
 
-## Theme Management
+## Tema Yönetimi
 
 Açık ve Koyu Mod `ThemeContext` tarafından yönetiliyor.
 
@@ -127,7 +127,7 @@ Seçilen tema Tailwind CSS kullanılarak uygulanır.
 
 Herhangi bir tercih kaydedilmediyse, site tarayıcının tercih ettiği rengi kullanır.
 
-## API Integration
+## API Entegrasyonu
 
 Proje hayali bir API iletişimini Axios kullanarak tanımlamaktadır.
 
